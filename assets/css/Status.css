@@ -1,0 +1,57 @@
+
+#container{
+	border : 5px solid rgba(92, 92, 92, 0.39);
+	box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.25);
+	background-color : #ffff;
+	border-radius: 30px ;
+}
+.input-group{
+	padding-top: 60px;
+
+}
+#lebar-button{
+	padding-left: 50px ;
+	padding-right: 50px;
+}
+#atur-button{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#judul{
+	margin-bottom: 50px;
+	margin-top:100px;
+}
+
+/* buat button prev next */
+a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+a:hover {
+	background-color: transparent;
+	color: black !important;
+	text-decoration: none !important;
+}
+
+.previous {
+	background-color:transparent;
+	color: black;
+}
+/* buat button */
+.btn1{
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 100%;
+	background-color: #009CFF;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.btn1:hover{
+	background: white;
+	border: 1px solid;
+	color :#009CFF
+}
