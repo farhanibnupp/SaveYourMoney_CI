@@ -34,7 +34,7 @@
                         <label class="form-label" for="password">Password</label>
                       </div>
                       <div class="pt-1 mb-4">
-                        <button  class="btn1 rounded-pill"id = "button"type="button" onclick="window.location.href='https://www.w3docs.com';" >Login</button>
+                        <button class="btn1 rounded-pill"id = "button"type="button">Login</button>
                       </div>
                       <p class="font-weight-lighter">Belum punya akun? <a href="<?php echo base_url('index.php/Login/registration') ?>" style="color: #393f81;">Register</a></p>
                     </form>
@@ -71,7 +71,6 @@
                 text: 'Password Wajib Diisi !'
               });
             }
-						
           }); 
         });
       </script>
